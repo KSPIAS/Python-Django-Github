@@ -25,3 +25,7 @@ def about(request):
 def form(request):
     # return HttpResponse("<h1>แบบฟอร์มบันทึกข้อมูล</h1>")
     return render(request,"form.html")
+
+def staticstest(request):
+    # return HttpResponse("<h1>static-stest</h1>")
+    return render(request,"staticstest.html")
